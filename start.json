@@ -1,6 +1,6 @@
 {    
     "name": "Shhhh",
     "version": "1.0.0",
-    "parameter": "menu:{asset:menu:menu.json}",
+    "parameter": "menu:https://github.com/trenyne/msx/blob/main/assets/menu.json",
     " ?welcome": "none"
 }
