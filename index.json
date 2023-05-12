@@ -19,7 +19,7 @@
                "color": "msx-red",   
                "alignment": "right|badge-right",
                "label": "Crazy Sites",
-               "action": "{asset:menu:menu.json}",
+               "action": "https://trenyne.github.io/assets/first.json",
                "data":null
 			}]
       }
