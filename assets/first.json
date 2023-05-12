@@ -10,11 +10,11 @@
                 "layout": "0,0,12,3",
                 "offset": "-1.25,-1,2,1",
                 "color": "msx-glass",
-                "image": "https://picsum.photos/seed/msx_665e1e1c_bg/1992/552",
-                "imageFiller": "cover",
-                "imageOverlay": 4
+                "image": "{asset:image:Homebr.png}",
+                "imageFiller": "fit",
+                "background":"{asset:image:web.png}"
+                
             }, {
-
                 "type": "space",
                 "layout": "0,1,12,1",
                 "offset": "-1.25,1,2,0",
@@ -24,41 +24,84 @@
                 "layout": "0,2,3,1",
                 "focus": true,
                 "color": "msx-white-soft",
-                "label": "{col:msx-black}Web Sites", 
-                "action": "replace:content:tabs:{asset:content:links.json}"
+                "label": "{col:msx-black}Web Sites",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/assets/first.json]"
             }, {
                 "type": "default",
                 "layout": "3,2,3,1",
                 "color": "transparent",
-                "label": "Second Section",
-                "action": "replace:content:tabs:http://msx.benzac.de/info/xp/data/hidden_feature_15_section2.json"
-            }, {
+                "label": "videos",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:contents:https://trenyne.github.io/assets/content.json]"
+            },{
                 "type": "default",
                 "layout": "6,2,3,1",
                 "color": "transparent",
-                "label": "Third Section",
-                "action": "replace:content:tabs:http://msx.benzac.de/info/xp/data/hidden_feature_15_section3.json"
+                "label": "tags",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/assets/tags.json}]"
             }, {
                 "type": "default",
                 "layout": "9,2,3,1",
                 "color": "transparent",
-                "label": "Fourth Section",
-                "action": "replace:content:tabs:http://msx.benzac.de/info/xp/data/hidden_feature_15_section4.json"
+                "label": "Shortcuts",
+                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:https://trenyne.github.io/assets/shortcuts.json}]"
             }]
-    }
-    {
-        "type": "list",
-    "headline": "Interaction Plugin Test",
-      "data":"content:{asset:content:playlist.json}",
+    },
     "template": {
-        "type": "separate",
-        "layout": "0,0,2,4",
-        "icon": "msx-white-soft:gamepad",
-        "color": "msx-glass"
-    }
+        "type": "default",
+        "layout": "0,0,3,2",
+        "color": "msx-glass",
+        "imageFiller": "cover",
+       "flag":"mytab"
+    },
+     "items": [
+      {
+         "title": "efukt",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://efukt.com",
+		 "image": "https://i0.wp.com/whoreuro.com/wp-content/uploads/2023/03/efukt-fucked-up-porn-min.png?fit=1200%2C675&ssl=1",
+ "background": "https://i0.wp.com/whoreuro.com/wp-content/uploads/2023/03/efukt-fucked-up-porn-min.png?fit=1200%2C675&ssl=1",
 
-  
+		 "imageFiller": "cover"
+     },
+   
+      {
+         "title": "Crazy Shit",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.crazyshit.com",
+		 "image": "https://thepornguy.b-cdn.net/wp-content/uploads/2019/10/crazyshit-1-1024x514.png.webp",
+		 "imageFiller": "cover"
+
+     },
+      {
+         "title": "Inhumanity",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.inhumanity.com",
+		 "image": "https://freestyler.ws/images/auto/styles_screenshot/5/292/146237/146237_addl_337480.png?u=1516609260",
+		 "imageFiller": "cover"
+
+     },
+      {
+         "title": "sickjunk",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.sickjunk.com",
+		 "image": "https://thepornguy.b-cdn.net/wp-content/uploads/2019/10/sick-junk-1024x517.png.webp",
+		 "imageFiller": "cover"
+
+     },
+
+{
+         "title": "Twisted Porn",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.twistedporn.com",
+		 "image": "https://thepornguy.b-cdn.net/wp-content/uploads/2019/10/twistedporn-1024x517.png.webp",
+		 "imageFiller": "cover"
+
+     },
+
+
+
+
+ {
+         "title": "back",
+         "action": "back"
+      }
+
  
-}
 
+]
 }
