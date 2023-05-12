@@ -10,9 +10,9 @@
                 "layout": "0,0,12,3",
                 "offset": "-1.25,-1,2,1",
                 "color": "msx-glass",
-                "image": "https://trenyne.github.io/assetsHomebr.png}",
+                "image": "https://trenyne.github.io/assets/Homebr.png}",
                 "imageFiller": "fit",
-                "background":"https://trenyne.github.io/assetsweb.png}"
+                "background":"https://trenyne.github.io/assets/web.png}"
                 
             }, {
                 "type": "space",
