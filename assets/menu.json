@@ -18,7 +18,7 @@
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
    "ready": {
-      "action":"invalidate:content:flag:{tabs} |content{asset:content:first.json}"
+      "action":"invalidate:content:flag:{tabs} | content:https://trenyne.github.io/assets/fist.json"
       
       },
    "menu": [
@@ -31,7 +31,7 @@
          "icon": "home",
          "label": "Web Sites",
          "extensionLabel": "www.",
-         "data":"{asset:content:first.json}"
+         "data":"https://trenyne.github.io/assets/first.json}"
 	    },
 
         {
@@ -44,7 +44,7 @@
          "icon": "movie",
          "label": "Videos",
          "extensionLabel": "videos",
-        	"data":""{asset:content:tagsButton.json}"
+        	"data":"https://trenyne.github.io/assets/content.json"
 		},
 
       	{
@@ -52,20 +52,20 @@
          "label": "Playlist",
          "extensionLabel": "shhh",
          "playlist":"data",
-		"data":"{asset:content:playlist.json}"
+		"data":"https://trenyne.github.io/assets/playlist.json}"
 		},
 
       	{
          "icon": "movie",
          "label": "Tags",
          "extensionLabel": "shhh",  
-		"data": "{asset:content:tagsButton.json}"
+		"data": "https://trenyne.github.io/assets/tags.json}"
 		},
       	{
          "icon": "help",
          "label": "Shortcuts",
          "extensionLabel":  "urls",
-         "data":"{asset:content:shortcuts.json}"
+         "data":"https://trenyne.github.io/assets/shortcuts.json}"
 		},
 		{
 		"type":"settings"
