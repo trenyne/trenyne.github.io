@@ -37,13 +37,13 @@
                 "layout": "6,2,3,1",
                 "color": "transparent",
                 "label": "tags",
-                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/assets/tags.json}]"
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/assets/tags.json]"
             }, {
                 "type": "default",
                 "layout": "9,2,3,1",
                 "color": "transparent",
                 "label": "Shortcuts",
-                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:https://trenyne.github.io/assets/ shortcuts.json}]"
+                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:https://trenyne.github.io/assets/shortcuts.json]"
             }]
     },
     "template": {
