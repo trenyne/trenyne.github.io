@@ -18,7 +18,7 @@
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
    "ready": {
-      "action":"invalidate:content: | content:https://trenyne.github.io/assets/first.json"
+      "action":"invalidate:content: |:https://trenyne.github.io/assets/first.json"
       
       },
    "menu": [
