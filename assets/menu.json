@@ -18,7 +18,7 @@
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
    "ready": {
-      "action":"invalidate:content: | content:https://trenyne.github.io/assets/fist.json"
+      "action":"invalidate:content: | content:https://trenyne.github.io/assets/first.json"
       
       },
    "menu": [
@@ -38,7 +38,7 @@
          "icon": "home",
          "label": "Web Sites",
          "extensionLabel": "www.",
-         "data":"https://trenyne.github.io/assets/links.json}"
+         "data":"https://trenyne.github.io/assets/links.json"
 	    },
       	{
          "icon": "movie",
@@ -73,7 +73,7 @@
 		{
          "icon": "change-circle",
          "label": "Reload",
-         "data":"https://trenyne.github.io/assets/data.json}"
+         "data":"https://trenyne.github.io/assets/data.json"
 		}
     ]
 }
