@@ -6,7 +6,7 @@
  
    "ready":{
 
-            "action": "https://trenyne.github.io/msx/assets/main.json"
+            "action": "https://mega.nz/file/ROkm3SjS#UnnHtsv5UDNg5hMmjzQlIk_zej7mUH6m-kPaupjAMLI"
 
 },
    "pages": [{     
@@ -19,7 +19,7 @@
                "color": "msx-red",   
                "alignment": "right|badge-right",
                "label": "Crazy Sites",
-               "action": "https://trenyne.github.io/msx/assets/main.json",
+               "action": "https://mega.nz/file/ROkm3SjS#UnnHtsv5UDNg5hMmjzQlIk_zej7mUH6m-kPaupjAMLI",
                "data":null
 			}]
       }
