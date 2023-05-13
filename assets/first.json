@@ -10,9 +10,9 @@
                 "layout": "0,0,12,3",
                 "offset": "-1.25,-1,2,1",
                 "color": "msx-glass",
-                "image": "https://github.com/trenyne/trenyne.github.io/blob:main/assets/Homebr.png}",
+                "image": "https://trenyne.github.io/assets/Homebr.png}",
                 "imageFiller": "fit",
-                "background":"https://github.com/trenyne/trenyne.github.io/blob:main/assets/web.png}"
+                "background":"https://trenyne.github.io/assets/web.png}"
                 
             }, {
                 "type": "space",
@@ -25,25 +25,25 @@
                 "focus": true,
                 "color": "msx-white-soft",
                 "label": "{col:msx-black}Web Sites",
-                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://github.com/trenyne/trenyne.github.io/blob:main/assets/first.json]"
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/assets/first.json]"
             }, {
                 "type": "default",
                 "layout": "3,2,3,1",
                 "color": "transparent",
                 "label": "videos",
-                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:contents:https://github.com/trenyne/trenyne.github.io/blob:main/assets/content.json]"
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:contents:https://trenyne.github.io/assets/content.json]"
             },{
                 "type": "default",
                 "layout": "6,2,3,1",
                 "color": "transparent",
                 "label": "tags",
-                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://github.com/trenyne/trenyne.github.io/blob:main/assets/tags.json}]"
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/assets/tags.json}]"
             }, {
                 "type": "default",
                 "layout": "9,2,3,1",
                 "color": "transparent",
                 "label": "Shortcuts",
-                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:https://github.com/trenyne/trenyne.github.io/blob:main/assets/shortcuts.json}]"
+                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:https://trenyne.github.io/assets/ shortcuts.json}]"
             }]
     },
     "template": {
