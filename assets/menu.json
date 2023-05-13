@@ -18,7 +18,7 @@
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
    "ready": {
-      "action":"https://dl.dropboxusercontent.com/s/15c8u191olyovvw/content.json?dl=0"
+      "action":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json?dl=0"
       
       },
    "menu": [
@@ -29,9 +29,9 @@
 
         {
          "icon": "home",
-         "label": "Web Sites",
-         "extensionLabel": "www.",
-         "data":"https://trenyne.github.io/assets/first.json}"
+         "label": "Home",
+         "extensionLabel": "",
+         "data":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json}"
 	    },
 
         {
