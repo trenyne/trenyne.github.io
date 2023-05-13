@@ -6,7 +6,7 @@
  
    "ready":{
 
-            "action": "menu:https://trenyne.github.io/assets/first.json"
+            "action": "https://trenyne.github.io/msx/assets/main.json"
 
 },
    "pages": [{     
@@ -19,7 +19,7 @@
                "color": "msx-red",   
                "alignment": "right|badge-right",
                "label": "Crazy Sites",
-               "action": "https://trenyne.github.io/assets/first.json",
+               "action": "https://trenyne.github.io/msx/assets/main.json",
                "data":null
 			}]
       }
