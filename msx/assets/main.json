@@ -12,7 +12,7 @@
                 "color": "msx-glass",
                 "image": "image:{asset:image:homebr.png}",
                 "imageFiller": "fit",
-                "background":"https://trenyne.github.io/assets/web.png}"
+                "background":"https://trenyne.github.io/assets/web.png"
                 
             }, {
                 "type": "space",
