@@ -19,7 +19,7 @@
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
    "ready": {
-      "action":"https://mega.nz/file/ROkm3SjS#UnnHtsv5UDNg5hMmjzQlIk_zej7mUH6m-kPaupjAMLI"
+      "action":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
       
       },
    "menu": [
@@ -32,7 +32,7 @@
          "icon": "home",
          "label": "Web Sites",
          "extensionLabel": "www.",
-         "data":"https://mega.nz/file/ROkm3SjS#UnnHtsv5UDNg5hMmjzQlIk_zej7mUH6m-kPaupjAMLI"
+         "data":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
 	    },
 
         {
