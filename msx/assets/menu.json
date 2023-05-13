@@ -35,39 +35,7 @@
          "data":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
 	    },
 
-        {
-         "icon": "home",
-         "label": "Videos",
-         "extensionLabel": "xxx",
-         "data":"https://dl.dropboxusercontent.com/s/15c8u191olyovvw/content.json?dl=0"
-	    },
-      	{
-         "icon": "movie",
-         "label": "Videos",
-         "extensionLabel": "videos",
-        	"data":"https://trenyne.github.io/assets/content.json"
-		},
-
-      	{
-         "icon": "movie",
-         "label": "Playlist",
-         "extensionLabel": "shhh",
-         "playlist":"data",
-		"data":"https://trenyne.github.io/assets/playlist.json"
-		},
-
-      	{
-         "icon": "movie",
-         "label": "Tags",
-         "extensionLabel": "shhh",  
-		"data": "https://trenyne.github.io/assets/tags.json}"
-		},
-      	{
-         "icon": "help",
-         "label": "Shortcuts",
-         "extensionLabel":  "urls",
-         "data":"https://trenyne.github.io/assets/shortcuts.json"
-		},
+        
 		{
 		"type":"settings"
 		},
