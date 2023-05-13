@@ -18,9 +18,9 @@
     "data": null,
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
+   "background":"msx-red",
    "ready": {
       "action":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
-      
       },
    "menu": [
         {
@@ -30,16 +30,16 @@
 
         {
          "icon": "home",
-         "label": "Web Sites",
-         "extensionLabel": "www.",
+         "label": "Home",
+         "extensionLabel": "home page",
          "data":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
 	    },
 
         {
          "icon": "home",
-         "label": "Web Sites",
-         "extensionLabel": "www.",
-         "data":"https://trenyne.github.io/assets/links.json"
+         "label": "Videos",
+         "extensionLabel": "xxx",
+         "data":"https://dl.dropboxusercontent.com/s/15c8u191olyovvw/content.json?dl=0"
 	    },
       	{
          "icon": "movie",
