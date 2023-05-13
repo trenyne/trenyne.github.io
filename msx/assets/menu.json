@@ -1,4 +1,5 @@
 {
+    "id{
     "id": "menu_id",
     "type": "menu",
     "display": true,
@@ -18,7 +19,7 @@
    "headline": "Shhh Playlist",
 	"color":"msx-black-soft",
    "ready": {
-      "action":"[invalidate:content:flag:{tabs}|{asset:content:first.json}]"
+      "action":"https://trenyne.github.io/assets/first.json"
       
       },
    "menu": [
@@ -31,40 +32,41 @@
          "icon": "home",
          "label": "Web Sites",
          "extensionLabel": "www.",
-         "data":"{asset:content:first.json}"
+         "data":"https://trenyne.github.io/assets/first.json}"
 	    },
 
         {
          "icon": "home",
          "label": "Web Sites",
          "extensionLabel": "www.",
-         "data":"{asset:content:links.json}"
+         "data":"https://trenyne.github.io/assets/links.json"
 	    },
       	{
          "icon": "movie",
          "label": "Videos",
          "extensionLabel": "videos",
-        	"data":"{asset:content:content.json}"
+        	"data":"https://trenyne.github.io/assets/content.json"
 		},
 
       	{
          "icon": "movie",
          "label": "Playlist",
          "extensionLabel": "shhh",
-		"data":"{asset:content:playlist.json}"
+         "playlist":"data",
+		"data":"https://trenyne.github.io/assets/playlist.json"
 		},
 
       	{
          "icon": "movie",
          "label": "Tags",
          "extensionLabel": "shhh",  
-		"data": "{asset:content:tagsButton.json}"
+		"data": "https://trenyne.github.io/assets/tags.json}"
 		},
       	{
          "icon": "help",
          "label": "Shortcuts",
          "extensionLabel":  "urls",
-         "data":"{asset:content:shortcuts.json}"
+         "data":"https://trenyne.github.io/assets/shortcuts.json"
 		},
 		{
 		"type":"settings"
@@ -72,7 +74,7 @@
 		{
          "icon": "change-circle",
          "label": "Reload",
-         "data":"{asset:content:data.json}"
+         "data":"https://trenyne.github.io/assets/data.json"
 		}
     ]
 }
